@@ -13,7 +13,7 @@ namespace GREditorialSupport
         {
             switch (editingMethodomboBox.Text)
             {
-                case "GitHubDevWebEditor":
+                case "GitHubDevウェブエディター":
                     if (mainEditCheckBox.Checked)
                     {
                         var startInfo = new System.Diagnostics.ProcessStartInfo("https://github.dev/Game-Resources/Game-Resources.github.io");

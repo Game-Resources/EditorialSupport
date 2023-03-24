@@ -4,9 +4,9 @@
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
 "ProjectName" = "8:GREditorialSupportSetup"
-"LanguageId" = "3:1033"
-"CodePage" = "3:1252"
-"UILanguageId" = "3:1033"
+"LanguageId" = "3:1041"
+"CodePage" = "3:932"
+"UILanguageId" = "3:1041"
 "SccProjectName" = "8:"
 "SccLocalPath" = "8:"
 "SccAuxPath" = "8:"
@@ -15,19 +15,19 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0A52A0B834C74CFDBE2351A7D9722484"
+        "MsmKey" = "8:_1C2308E0F99C448498533534B90C4E42"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_12FE8D04C5FC4E6E806D238B6B48B34F"
+        "MsmKey" = "8:_4D36C6431EBE4BE9A9632978E6BE11DE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_5514F1EA05344817AC8E5F72986EA2F6"
+        "MsmKey" = "8:_71B8B410C6D04E9B81EF97F6C66C3FC8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -39,20 +39,20 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_920F900289E44A828FC32AB219B3EEDE"
+        "MsmKey" = "8:_91803D54D7F94DB29EDAA7A3E220DAA2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_C2AE0E1466FD4C178DE3F103D4D76A02"
+        "MsmKey" = "8:_C221B57806F040198297E773D2EB52FE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_920F900289E44A828FC32AB219B3EEDE"
+        "OwnerKey" = "8:_91803D54D7F94DB29EDAA7A3E220DAA2"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -80,6 +80,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -104,6 +112,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -134,27 +150,7 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0A52A0B834C74CFDBE2351A7D9722484"
-            {
-            "SourcePath" = "8:..\\GREditorialSupport\\bin\\Release\\net7.0-windows\\GREditorialSupport.deps.json"
-            "TargetName" = "8:GREditorialSupport.deps.json"
-            "Tag" = "8:"
-            "Folder" = "8:_FB8641D82CA74FCC9B43D12D978E33CA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_12FE8D04C5FC4E6E806D238B6B48B34F"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1C2308E0F99C448498533534B90C4E42"
             {
             "SourcePath" = "8:..\\GREditorialSupport\\bin\\Release\\net7.0-windows\\GREditorialSupport.pdb"
             "TargetName" = "8:GREditorialSupport.pdb"
@@ -174,10 +170,30 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5514F1EA05344817AC8E5F72986EA2F6"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4D36C6431EBE4BE9A9632978E6BE11DE"
             {
             "SourcePath" = "8:..\\GREditorialSupport\\bin\\Release\\net7.0-windows\\GREditorialSupport.runtimeconfig.json"
             "TargetName" = "8:GREditorialSupport.runtimeconfig.json"
+            "Tag" = "8:"
+            "Folder" = "8:_FB8641D82CA74FCC9B43D12D978E33CA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_71B8B410C6D04E9B81EF97F6C66C3FC8"
+            {
+            "SourcePath" = "8:..\\GREditorialSupport\\bin\\Release\\net7.0-windows\\GREditorialSupport.deps.json"
+            "TargetName" = "8:GREditorialSupport.deps.json"
             "Tag" = "8:"
             "Folder" = "8:_FB8641D82CA74FCC9B43D12D978E33CA"
             "Condition" = "8:"
@@ -214,14 +230,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_920F900289E44A828FC32AB219B3EEDE"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_91803D54D7F94DB29EDAA7A3E220DAA2"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:GREditorialSupport, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_920F900289E44A828FC32AB219B3EEDE"
+                    "_91803D54D7F94DB29EDAA7A3E220DAA2"
                     {
                     "Name" = "8:GREditorialSupport.dll"
                     "Attributes" = "3:512"
@@ -245,7 +261,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C2AE0E1466FD4C178DE3F103D4D76A02"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C221B57806F040198297E773D2EB52FE"
             {
             "SourcePath" = "8:..\\GREditorialSupport\\bin\\Release\\net7.0-windows\\GREditorialSupport.exe"
             "TargetName" = "8:GREditorialSupport.exe"
@@ -314,15 +330,15 @@
         }
         "MsiBootstrapper"
         {
-        "LangId" = "3:1033"
+        "LangId" = "3:1041"
         "RequiresElevation" = "11:FALSE"
         }
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:GREditorialSupport"
+        "ProductName" = "8:GR編集サポート"
         "ProductCode" = "8:{8266D84B-0C09-4A6C-8AE4-ECC650805649}"
-        "PackageCode" = "8:{9D35AD50-536A-47AC-82A3-C4B3C3F29DB5}"
+        "PackageCode" = "8:{0FAA17F0-29DC-4DB6-BCE8-378DE9A46E98}"
         "UpgradeCode" = "8:{C04E389C-857E-4399-9D80-2C3EAD229F58}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -333,7 +349,7 @@
         "Manufacturer" = "8:GameResources"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:GREditorialSupportSetup"
+        "Title" = "8:GR編集サポートセットアップ"
         "Subject" = "8:"
         "ARPCONTACT" = "8:GameResources"
         "Keywords" = "8:"
@@ -442,29 +458,15 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_0EC1A31314D0409D90298382C6B798FF"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_31D279E977F945A4A0095A4373029741"
             {
-            "Name" = "8:GREditorialSupport"
+            "Name" = "8:GR編集サポート"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_C2AE0E1466FD4C178DE3F103D4D76A02"
-            "Folder" = "8:_D0CB80172A45466B8D1F86A55642CA01"
-            "WorkingFolder" = "8:_FB8641D82CA74FCC9B43D12D978E33CA"
-            "Icon" = "8:_78BCAFE598944203881D2E181F69B461"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_68459B4D66E34730A6806B56FF88CB41"
-            {
-            "Name" = "8:GREditorialSupport"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_C2AE0E1466FD4C178DE3F103D4D76A02"
+            "Target" = "8:_C221B57806F040198297E773D2EB52FE"
             "Folder" = "8:_56B6B2B78A3A46EA96A47824FC9DB0F5"
             "WorkingFolder" = "8:_FB8641D82CA74FCC9B43D12D978E33CA"
             "Icon" = "8:_78BCAFE598944203881D2E181F69B461"

@@ -55,12 +55,12 @@
             // editingMethodomboBox
             // 
             editingMethodomboBox.FormattingEnabled = true;
-            editingMethodomboBox.Items.AddRange(new object[] { "GitHubDevWebEditor", "VisualStudioCode", "VisualStudioCodeInsiders" });
+            editingMethodomboBox.Items.AddRange(new object[] { "GitHubDevウェブエディター", "VisualStudioCode", "VisualStudioCodeInsiders" });
             editingMethodomboBox.Location = new Point(3, 3);
             editingMethodomboBox.Name = "editingMethodomboBox";
             editingMethodomboBox.Size = new Size(240, 33);
             editingMethodomboBox.TabIndex = 0;
-            editingMethodomboBox.Text = "GitHubDevWebEditor";
+            editingMethodomboBox.Text = "GitHubDevウェブエディター";
             // 
             // editFlowLayoutPanel
             // 
@@ -80,7 +80,7 @@
             mainEditCheckBox.Name = "mainEditCheckBox";
             mainEditCheckBox.Size = new Size(77, 29);
             mainEditCheckBox.TabIndex = 3;
-            mainEditCheckBox.Text = "Main";
+            mainEditCheckBox.Text = "メイン";
             mainEditCheckBox.UseVisualStyleBackColor = true;
             // 
             // contentEditCheckBox
@@ -88,9 +88,9 @@
             contentEditCheckBox.AutoSize = true;
             contentEditCheckBox.Location = new Point(3, 38);
             contentEditCheckBox.Name = "contentEditCheckBox";
-            contentEditCheckBox.Size = new Size(101, 29);
+            contentEditCheckBox.Size = new Size(104, 29);
             contentEditCheckBox.TabIndex = 0;
-            contentEditCheckBox.Text = "Content";
+            contentEditCheckBox.Text = "コンテンツ";
             contentEditCheckBox.UseVisualStyleBackColor = true;
             // 
             // postEditCheckBox
@@ -98,9 +98,9 @@
             postEditCheckBox.AutoSize = true;
             postEditCheckBox.Location = new Point(3, 73);
             postEditCheckBox.Name = "postEditCheckBox";
-            postEditCheckBox.Size = new Size(73, 29);
+            postEditCheckBox.Size = new Size(74, 29);
             postEditCheckBox.TabIndex = 1;
-            postEditCheckBox.Text = "Post";
+            postEditCheckBox.Text = "投稿";
             postEditCheckBox.UseVisualStyleBackColor = true;
             // 
             // startButton
@@ -109,7 +109,7 @@
             startButton.Name = "startButton";
             startButton.Size = new Size(112, 34);
             startButton.TabIndex = 1;
-            startButton.Text = "Start";
+            startButton.Text = "開始";
             startButton.UseVisualStyleBackColor = true;
             startButton.Click += startButton_Click;
             // 
@@ -121,7 +121,7 @@
             Controls.Add(mainPanel);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
-            Text = "GREditorialSupport";
+            Text = "GR編集サポート";
             mainPanel.ResumeLayout(false);
             editFlowLayoutPanel.ResumeLayout(false);
             editFlowLayoutPanel.PerformLayout();
