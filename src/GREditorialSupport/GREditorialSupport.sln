@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33513.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GREditorialSupport", "GREditorialSupport\GREditorialSupport.csproj", "{ECA37487-A85E-4FBC-B1BA-0B9BF64813FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GREditorialSupport", "GREditorialSupport\GREditorialSupport.csproj", "{ECA37487-A85E-4FBC-B1BA-0B9BF64813FE}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "GREditorialSupportSetup", "GREditorialSupportSetup\GREditorialSupportSetup.vdproj", "{04699E5C-9533-44AB-A232-535012080CE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{ECA37487-A85E-4FBC-B1BA-0B9BF64813FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECA37487-A85E-4FBC-B1BA-0B9BF64813FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECA37487-A85E-4FBC-B1BA-0B9BF64813FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04699E5C-9533-44AB-A232-535012080CE1}.Debug|Any CPU.ActiveCfg = Debug
+		{04699E5C-9533-44AB-A232-535012080CE1}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

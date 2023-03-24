@@ -1,0 +1,17 @@
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\bin\Release\net7.0-windows\GREditorialSupport.exe
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\bin\Release\net7.0-windows\GREditorialSupport.deps.json
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\bin\Release\net7.0-windows\GREditorialSupport.runtimeconfig.json
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\bin\Release\net7.0-windows\GREditorialSupport.dll
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\bin\Release\net7.0-windows\GREditorialSupport.pdb
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\obj\Release\net7.0-windows\GREditorialSupport.csproj.AssemblyReference.cache
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\obj\Release\net7.0-windows\GREditorialSupport.Form1.resources
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\obj\Release\net7.0-windows\GREditorialSupport.csproj.GenerateResource.cache
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\obj\Release\net7.0-windows\GREditorialSupport.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\obj\Release\net7.0-windows\GREditorialSupport.AssemblyInfoInputs.cache
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\obj\Release\net7.0-windows\GREditorialSupport.AssemblyInfo.cs
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\obj\Release\net7.0-windows\GREditorialSupport.csproj.CoreCompileInputs.cache
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\obj\Release\net7.0-windows\GREditorialSupport.dll
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\obj\Release\net7.0-windows\refint\GREditorialSupport.dll
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\obj\Release\net7.0-windows\GREditorialSupport.pdb
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\obj\Release\net7.0-windows\GREditorialSupport.genruntimeconfig.cache
+C:\GitHub\EditorialSupport\src\GREditorialSupport\GREditorialSupport\obj\Release\net7.0-windows\ref\GREditorialSupport.dll
