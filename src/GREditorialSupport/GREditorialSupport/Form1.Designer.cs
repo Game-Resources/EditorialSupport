@@ -83,7 +83,7 @@
             // 
             // startButton
             // 
-            startButton.Location = new Point(3, 198);
+            startButton.Location = new Point(3, 188);
             startButton.Name = "startButton";
             startButton.Size = new Size(112, 34);
             startButton.TabIndex = 1;
@@ -105,11 +105,12 @@
             mainTtableLayoutPanel.RowStyles.Add(new RowStyle());
             mainTtableLayoutPanel.RowStyles.Add(new RowStyle());
             mainTtableLayoutPanel.RowStyles.Add(new RowStyle());
-            mainTtableLayoutPanel.Size = new Size(248, 236);
+            mainTtableLayoutPanel.Size = new Size(273, 236);
             mainTtableLayoutPanel.TabIndex = 1;
             // 
             // editTableLayoutPanel
             // 
+            editTableLayoutPanel.AutoSize = true;
             editTableLayoutPanel.ColumnCount = 1;
             editTableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             editTableLayoutPanel.Controls.Add(postEditCheckBox, 0, 3);
@@ -123,7 +124,7 @@
             editTableLayoutPanel.RowStyles.Add(new RowStyle());
             editTableLayoutPanel.RowStyles.Add(new RowStyle());
             editTableLayoutPanel.RowStyles.Add(new RowStyle());
-            editTableLayoutPanel.Size = new Size(242, 150);
+            editTableLayoutPanel.Size = new Size(110, 140);
             editTableLayoutPanel.TabIndex = 2;
             // 
             // calendarEditCheckBox
@@ -140,12 +141,13 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(248, 236);
+            ClientSize = new Size(273, 236);
             Controls.Add(mainTtableLayoutPanel);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "GR編集サポート";
             mainTtableLayoutPanel.ResumeLayout(false);
+            mainTtableLayoutPanel.PerformLayout();
             editTableLayoutPanel.ResumeLayout(false);
             editTableLayoutPanel.PerformLayout();
             ResumeLayout(false);

@@ -19,10 +19,18 @@ namespace GREditorialSupport
                         var startInfo = new System.Diagnostics.ProcessStartInfo("https://github.dev/Game-Resources/Game-Resources.github.io");
                         startInfo.UseShellExecute = true;
                         System.Diagnostics.Process.Start(startInfo);
+
+                        startInfo = new System.Diagnostics.ProcessStartInfo("https://github.com/Game-Resources/Game-Resources.github.io");
+                        startInfo.UseShellExecute = true;
+                        System.Diagnostics.Process.Start(startInfo);
                     }
                     if (contentEditCheckBox.Checked)
                     {
                         var startInfo = new System.Diagnostics.ProcessStartInfo("https://github.dev/Game-Resources/Content");
+                        startInfo.UseShellExecute = true;
+                        System.Diagnostics.Process.Start(startInfo);
+
+                        startInfo = new System.Diagnostics.ProcessStartInfo("https://github.com/Game-Resources/Content");
                         startInfo.UseShellExecute = true;
                         System.Diagnostics.Process.Start(startInfo);
                     }
@@ -35,6 +43,10 @@ namespace GREditorialSupport
                     if (postEditCheckBox.Checked)
                     {
                         var startInfo = new System.Diagnostics.ProcessStartInfo("https://github.dev/Game-Resources/Post");
+                        startInfo.UseShellExecute = true;
+                        System.Diagnostics.Process.Start(startInfo);
+
+                        startInfo = new System.Diagnostics.ProcessStartInfo("https://github.com/Game-Resources/Post");
                         startInfo.UseShellExecute = true;
                         System.Diagnostics.Process.Start(startInfo);
                     }
