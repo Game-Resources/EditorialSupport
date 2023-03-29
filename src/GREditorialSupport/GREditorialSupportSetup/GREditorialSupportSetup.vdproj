@@ -15,44 +15,44 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_1C2308E0F99C448498533534B90C4E42"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4D36C6431EBE4BE9A9632978E6BE11DE"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_71B8B410C6D04E9B81EF97F6C66C3FC8"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_78BCAFE598944203881D2E181F69B461"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_91803D54D7F94DB29EDAA7A3E220DAA2"
+        "MsmKey" = "8:_91E485E9A2DD4EA989C423CF621C9F29"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_C221B57806F040198297E773D2EB52FE"
+        "MsmKey" = "8:_A0CD662778AE497F8223304A166B6D9F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C5C361DE4CCE4848B6F7C5F555609D42"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D7A7A0FB124349F38B4909B9A0ED0BF6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E3CD8D2B15554972B3CF1BA7775EED92"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_91803D54D7F94DB29EDAA7A3E220DAA2"
+        "OwnerKey" = "8:_A0CD662778AE497F8223304A166B6D9F"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -150,66 +150,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1C2308E0F99C448498533534B90C4E42"
-            {
-            "SourcePath" = "8:..\\GREditorialSupport\\bin\\Release\\net7.0-windows\\GREditorialSupport.pdb"
-            "TargetName" = "8:GREditorialSupport.pdb"
-            "Tag" = "8:"
-            "Folder" = "8:_FB8641D82CA74FCC9B43D12D978E33CA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4D36C6431EBE4BE9A9632978E6BE11DE"
-            {
-            "SourcePath" = "8:..\\GREditorialSupport\\bin\\Release\\net7.0-windows\\GREditorialSupport.runtimeconfig.json"
-            "TargetName" = "8:GREditorialSupport.runtimeconfig.json"
-            "Tag" = "8:"
-            "Folder" = "8:_FB8641D82CA74FCC9B43D12D978E33CA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_71B8B410C6D04E9B81EF97F6C66C3FC8"
-            {
-            "SourcePath" = "8:..\\GREditorialSupport\\bin\\Release\\net7.0-windows\\GREditorialSupport.deps.json"
-            "TargetName" = "8:GREditorialSupport.deps.json"
-            "Tag" = "8:"
-            "Folder" = "8:_FB8641D82CA74FCC9B43D12D978E33CA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_78BCAFE598944203881D2E181F69B461"
             {
             "SourcePath" = "8:..\\GREditorialSupport\\Icon.ico"
@@ -230,14 +170,34 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_91803D54D7F94DB29EDAA7A3E220DAA2"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_91E485E9A2DD4EA989C423CF621C9F29"
+            {
+            "SourcePath" = "8:..\\GREditorialSupport\\bin\\Release\\net7.0-windows\\GREditorialSupport.exe"
+            "TargetName" = "8:GREditorialSupport.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_FB8641D82CA74FCC9B43D12D978E33CA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A0CD662778AE497F8223304A166B6D9F"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:GREditorialSupport, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:GREditorialSupport, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_91803D54D7F94DB29EDAA7A3E220DAA2"
+                    "_A0CD662778AE497F8223304A166B6D9F"
                     {
                     "Name" = "8:GREditorialSupport.dll"
                     "Attributes" = "3:512"
@@ -261,10 +221,50 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C221B57806F040198297E773D2EB52FE"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C5C361DE4CCE4848B6F7C5F555609D42"
             {
-            "SourcePath" = "8:..\\GREditorialSupport\\bin\\Release\\net7.0-windows\\GREditorialSupport.exe"
-            "TargetName" = "8:GREditorialSupport.exe"
+            "SourcePath" = "8:..\\GREditorialSupport\\bin\\Release\\net7.0-windows\\GREditorialSupport.runtimeconfig.json"
+            "TargetName" = "8:GREditorialSupport.runtimeconfig.json"
+            "Tag" = "8:"
+            "Folder" = "8:_FB8641D82CA74FCC9B43D12D978E33CA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D7A7A0FB124349F38B4909B9A0ED0BF6"
+            {
+            "SourcePath" = "8:..\\GREditorialSupport\\bin\\Release\\net7.0-windows\\GREditorialSupport.pdb"
+            "TargetName" = "8:GREditorialSupport.pdb"
+            "Tag" = "8:"
+            "Folder" = "8:_FB8641D82CA74FCC9B43D12D978E33CA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E3CD8D2B15554972B3CF1BA7775EED92"
+            {
+            "SourcePath" = "8:..\\GREditorialSupport\\bin\\Release\\net7.0-windows\\GREditorialSupport.deps.json"
+            "TargetName" = "8:GREditorialSupport.deps.json"
             "Tag" = "8:"
             "Folder" = "8:_FB8641D82CA74FCC9B43D12D978E33CA"
             "Condition" = "8:"
@@ -311,7 +311,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_FB8641D82CA74FCC9B43D12D978E33CA"
             {
-            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -337,15 +337,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:GR編集サポート"
-        "ProductCode" = "8:{8266D84B-0C09-4A6C-8AE4-ECC650805649}"
-        "PackageCode" = "8:{0FAA17F0-29DC-4DB6-BCE8-378DE9A46E98}"
+        "ProductCode" = "8:{1B436B80-4B71-46B5-A843-0C7BE1F11996}"
+        "PackageCode" = "8:{8AD89FF4-A422-4F94-88F9-57C1699FEBA3}"
         "UpgradeCode" = "8:{C04E389C-857E-4399-9D80-2C3EAD229F58}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.1"
         "Manufacturer" = "8:GameResources"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -359,7 +359,7 @@
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:1"
+        "TargetPlatform" = "3:0"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
@@ -458,7 +458,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_31D279E977F945A4A0095A4373029741"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B37473D6C722425C82ACF1B2EB37213C"
             {
             "Name" = "8:GR編集サポート"
             "Arguments" = "8:"
@@ -466,7 +466,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_C221B57806F040198297E773D2EB52FE"
+            "Target" = "8:_91E485E9A2DD4EA989C423CF621C9F29"
             "Folder" = "8:_56B6B2B78A3A46EA96A47824FC9DB0F5"
             "WorkingFolder" = "8:_FB8641D82CA74FCC9B43D12D978E33CA"
             "Icon" = "8:_78BCAFE598944203881D2E181F69B461"

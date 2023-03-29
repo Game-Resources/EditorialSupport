@@ -29,28 +29,17 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            mainPanel = new FlowLayoutPanel();
             editingMethodomboBox = new ComboBox();
-            editFlowLayoutPanel = new FlowLayoutPanel();
             mainEditCheckBox = new CheckBox();
             contentEditCheckBox = new CheckBox();
             postEditCheckBox = new CheckBox();
             startButton = new Button();
-            mainPanel.SuspendLayout();
-            editFlowLayoutPanel.SuspendLayout();
+            mainTtableLayoutPanel = new TableLayoutPanel();
+            editTableLayoutPanel = new TableLayoutPanel();
+            calendarEditCheckBox = new CheckBox();
+            mainTtableLayoutPanel.SuspendLayout();
+            editTableLayoutPanel.SuspendLayout();
             SuspendLayout();
-            // 
-            // mainPanel
-            // 
-            mainPanel.Controls.Add(editingMethodomboBox);
-            mainPanel.Controls.Add(editFlowLayoutPanel);
-            mainPanel.Controls.Add(startButton);
-            mainPanel.Dock = DockStyle.Fill;
-            mainPanel.FlowDirection = FlowDirection.TopDown;
-            mainPanel.Location = new Point(0, 0);
-            mainPanel.Name = "mainPanel";
-            mainPanel.Size = new Size(332, 200);
-            mainPanel.TabIndex = 0;
             // 
             // editingMethodomboBox
             // 
@@ -61,17 +50,6 @@
             editingMethodomboBox.Size = new Size(240, 33);
             editingMethodomboBox.TabIndex = 0;
             editingMethodomboBox.Text = "GitHubDevウェブエディター";
-            // 
-            // editFlowLayoutPanel
-            // 
-            editFlowLayoutPanel.Controls.Add(mainEditCheckBox);
-            editFlowLayoutPanel.Controls.Add(contentEditCheckBox);
-            editFlowLayoutPanel.Controls.Add(postEditCheckBox);
-            editFlowLayoutPanel.FlowDirection = FlowDirection.TopDown;
-            editFlowLayoutPanel.Location = new Point(3, 42);
-            editFlowLayoutPanel.Name = "editFlowLayoutPanel";
-            editFlowLayoutPanel.Size = new Size(286, 106);
-            editFlowLayoutPanel.TabIndex = 0;
             // 
             // mainEditCheckBox
             // 
@@ -96,7 +74,7 @@
             // postEditCheckBox
             // 
             postEditCheckBox.AutoSize = true;
-            postEditCheckBox.Location = new Point(3, 73);
+            postEditCheckBox.Location = new Point(3, 108);
             postEditCheckBox.Name = "postEditCheckBox";
             postEditCheckBox.Size = new Size(74, 29);
             postEditCheckBox.TabIndex = 1;
@@ -105,7 +83,7 @@
             // 
             // startButton
             // 
-            startButton.Location = new Point(3, 154);
+            startButton.Location = new Point(3, 198);
             startButton.Name = "startButton";
             startButton.Size = new Size(112, 34);
             startButton.TabIndex = 1;
@@ -113,33 +91,78 @@
             startButton.UseVisualStyleBackColor = true;
             startButton.Click += startButton_Click;
             // 
+            // mainTtableLayoutPanel
+            // 
+            mainTtableLayoutPanel.ColumnCount = 1;
+            mainTtableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            mainTtableLayoutPanel.Controls.Add(startButton, 0, 2);
+            mainTtableLayoutPanel.Controls.Add(editingMethodomboBox, 0, 0);
+            mainTtableLayoutPanel.Controls.Add(editTableLayoutPanel, 0, 1);
+            mainTtableLayoutPanel.Dock = DockStyle.Fill;
+            mainTtableLayoutPanel.Location = new Point(0, 0);
+            mainTtableLayoutPanel.Name = "mainTtableLayoutPanel";
+            mainTtableLayoutPanel.RowCount = 3;
+            mainTtableLayoutPanel.RowStyles.Add(new RowStyle());
+            mainTtableLayoutPanel.RowStyles.Add(new RowStyle());
+            mainTtableLayoutPanel.RowStyles.Add(new RowStyle());
+            mainTtableLayoutPanel.Size = new Size(248, 236);
+            mainTtableLayoutPanel.TabIndex = 1;
+            // 
+            // editTableLayoutPanel
+            // 
+            editTableLayoutPanel.ColumnCount = 1;
+            editTableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            editTableLayoutPanel.Controls.Add(postEditCheckBox, 0, 3);
+            editTableLayoutPanel.Controls.Add(contentEditCheckBox, 0, 1);
+            editTableLayoutPanel.Controls.Add(mainEditCheckBox, 0, 0);
+            editTableLayoutPanel.Controls.Add(calendarEditCheckBox, 0, 2);
+            editTableLayoutPanel.Location = new Point(3, 42);
+            editTableLayoutPanel.Name = "editTableLayoutPanel";
+            editTableLayoutPanel.RowCount = 4;
+            editTableLayoutPanel.RowStyles.Add(new RowStyle());
+            editTableLayoutPanel.RowStyles.Add(new RowStyle());
+            editTableLayoutPanel.RowStyles.Add(new RowStyle());
+            editTableLayoutPanel.RowStyles.Add(new RowStyle());
+            editTableLayoutPanel.Size = new Size(242, 150);
+            editTableLayoutPanel.TabIndex = 2;
+            // 
+            // calendarEditCheckBox
+            // 
+            calendarEditCheckBox.AutoSize = true;
+            calendarEditCheckBox.Location = new Point(3, 73);
+            calendarEditCheckBox.Name = "calendarEditCheckBox";
+            calendarEditCheckBox.Size = new Size(103, 29);
+            calendarEditCheckBox.TabIndex = 4;
+            calendarEditCheckBox.Text = "カレンダー";
+            calendarEditCheckBox.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(332, 200);
-            Controls.Add(mainPanel);
+            ClientSize = new Size(248, 236);
+            Controls.Add(mainTtableLayoutPanel);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "GR編集サポート";
-            mainPanel.ResumeLayout(false);
-            editFlowLayoutPanel.ResumeLayout(false);
-            editFlowLayoutPanel.PerformLayout();
+            mainTtableLayoutPanel.ResumeLayout(false);
+            editTableLayoutPanel.ResumeLayout(false);
+            editTableLayoutPanel.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
-
-        private FlowLayoutPanel mainPanel;
         private CheckBox contentEditCheckBox;
         private Button startButton;
         private CheckBox mainEditCheckBox;
         private CheckBox postEditCheckBox;
         private TabControl optionTabControl;
         private TabPage editTabPage;
-        private FlowLayoutPanel editFlowLayoutPanel;
         private TabPage editingMethodTabPage;
         private FlowLayoutPanel tabEditingMethodFlowLayoutPanel;
         private ComboBox editingMethodomboBox;
+        private TableLayoutPanel mainTtableLayoutPanel;
+        private TableLayoutPanel editTableLayoutPanel;
+        private CheckBox calendarEditCheckBox;
     }
 }

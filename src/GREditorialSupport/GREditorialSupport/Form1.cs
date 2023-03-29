@@ -26,6 +26,12 @@ namespace GREditorialSupport
                         startInfo.UseShellExecute = true;
                         System.Diagnostics.Process.Start(startInfo);
                     }
+                    if (calendarEditCheckBox.Checked)
+                    {
+                        var startInfo = new System.Diagnostics.ProcessStartInfo("https://outlook.live.com/calendar/");
+                        startInfo.UseShellExecute = true;
+                        System.Diagnostics.Process.Start(startInfo);
+                    }
                     if (postEditCheckBox.Checked)
                     {
                         var startInfo = new System.Diagnostics.ProcessStartInfo("https://github.dev/Game-Resources/Post");
@@ -45,6 +51,12 @@ namespace GREditorialSupport
                         System.Diagnostics.Process.Start("cmd.exe", "/k github \"C:\\GitHub\\Content\"");
                         System.Diagnostics.Process.Start("cmd.exe", "/k code \"C:\\GitHub\\Content\"");
                     }
+                    if (calendarEditCheckBox.Checked)
+                    {
+                        var startInfo = new System.Diagnostics.ProcessStartInfo("https://outlook.live.com/calendar/");
+                        startInfo.UseShellExecute = true;
+                        System.Diagnostics.Process.Start(startInfo);
+                    }
                     if (postEditCheckBox.Checked)
                     {
                         System.Diagnostics.Process.Start("cmd.exe", "/k github \"C:\\GitHub\\Post\"");
@@ -62,6 +74,12 @@ namespace GREditorialSupport
                     {
                         System.Diagnostics.Process.Start("cmd.exe", "/k github \"C:\\GitHub\\Content\"");
                         System.Diagnostics.Process.Start("cmd.exe", "/k code-insiders \"C:\\GitHub\\Content\"");
+                    }
+                    if (calendarEditCheckBox.Checked)
+                    {
+                        var startInfo = new System.Diagnostics.ProcessStartInfo("https://outlook.live.com/calendar/");
+                        startInfo.UseShellExecute = true;
+                        System.Diagnostics.Process.Start(startInfo);
                     }
                     if (postEditCheckBox.Checked)
                     {
